@@ -1,0 +1,20 @@
+- Reading Files
+ 
+ r- Open file for reading
+ r+ - Open file for reading and writing
+ rs - Open file for reading in synchronous Mode
+ rs+ - Open file for reading and writing ,asking the OS(Operating System) to open it Synchronously
+
+- Writing files 
+
+w - Open file for writing, The file is created if it doesn't exist amd deleted if it exist
+wx - Open file for writing but fails if path exist
+w+ - Open file for reading and writing
+wx+ - Open file for reading and writing but fails if path exist
+
+-Appending file 
+
+a- Open file for appending 
+ax- Open file for appending but fails if path doesn't exist
+a+ -Open file for reading and appending
+ax+ - Open file for reading and appending but fails if path exists
